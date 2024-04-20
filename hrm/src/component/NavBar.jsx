@@ -1,5 +1,5 @@
 import NavItem from "./NavItem";
-import { Home, Users, BellRing } from "lucide-react";
+import { Home, Users, BellRing,HandCoins } from "lucide-react";
 // chung 1 thu muc la tro thang
 // khac thu muc la .. de thoat, 1 cham la thoat 1 lan
 import Logo from "../assets/Logo.png";
@@ -14,6 +14,11 @@ const navContent = [
     title: "Employee",
     href: "/employee",
     icon: <Users />,
+  },
+  {
+    title: "Payroll",
+    href: "/payroll",
+    icon: <HandCoins />,
   },
   {
     title: "Alert",
